@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./Frame\ 3.png);
+    position: fixed;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    margin: 16px;
+    background-color: transparent;
+
+}
+
+.h1 {
+
+    font-family: 'Pattaya', sans-serif;
+    position: relative;
+    color: #ffffff;
+    font-size: 24px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    height: 350px;
+}
+
+.info {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 24px;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    left: 8%;
+}
+.mail{
+    width: 30px;
+    height: 30px;
+}
+.txt{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    
+}
+
+.linha1{
+    background-color: #ffffff;
+    width: 300px;
+    height: 1px;
+    position: relative;
+    left: 10%;
+
+}
+.email2{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    left: 8%;
+}
+.mail2{
+    width: 30px;
+    height: 30px;
+}
+.txt2{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    
+}
+
+.linha2{
+    background-color: #ffffff;
+    width: 300px;
+    height: 1px;
+    position: relative;
+    left: 10%;
+
+}
+.senha{
+    color: #ffffff;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    left: 50%;
+    padding: 6px;
+}
+
+footer {}
+
+.caixa {
+    background-color: #ffffff;
+    width: 300px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    margin: 36px;
+    position: relative;
+    display: flex;
+    top: 220%;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+
+.começar2 {
+    position: fixed;
+    color: #F27706;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Finalização{
+text-decoration: none;
+color: white;
+font-family: 'Roboto', sans-serif;
+align-items: center;
+position: relative;
+left: 25%;
+justify-items: center;
+}
