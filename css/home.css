@@ -113,3 +113,13 @@ main {
     top: 10%; 
     margin-top: 20px;
 }
+.produtos2{
+    display: flex;
+    width: 50px;
+    height: 100px;
+    position: relative;
+    left: 20%;
+    top: 10%; 
+    margin-top: 20px;
+    
+}

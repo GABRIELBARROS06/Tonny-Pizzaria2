@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(./Frame\ 3.png);
+    background-image: url(/img/Frame\ 3.png);
     position: fixed;
     background-repeat: no-repeat;
 }
@@ -49,25 +49,40 @@ main {
     margin: 24px;
 }
 
-.email{
+.email {
     display: flex;
     align-items: center;
     padding: 10px;
     position: relative;
     left: 8%;
 }
-.mail{
-    width: 30px;
-    height: 30px;
-}
-.txt{
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    margin: 10px;
-    
+
+.mail {
+    width: 25px;
+    height: 25px;
 }
 
-.linha1{
+.email3 {
+    position: relative;
+    left: 3%;
+    border: none;
+    outline: 0;
+}
+
+.email> ::placeholder {
+    font-family: 'Roboto', bold;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.email>input {
+    background-color: transparent;
+    border: none;
+}
+
+
+
+.linha1 {
     background-color: #ffffff;
     width: 300px;
     height: 1px;
@@ -75,25 +90,33 @@ main {
     left: 10%;
 
 }
-.email2{
+
+.email2 {
     display: flex;
     align-items: center;
     padding: 10px;
     position: relative;
     left: 8%;
+
 }
-.mail2{
+.email2 > input{
+    background-color: transparent;
+    border: none;
+}
+.email2 > ::placeholder{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Roboto', bold;
+
+}
+
+.mail2 {
     width: 30px;
     height: 30px;
 }
-.txt2{
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    margin: 10px;
-    
-}
 
-.linha2{
+
+.linha2 {
     background-color: #ffffff;
     width: 300px;
     height: 1px;
@@ -101,7 +124,8 @@ main {
     left: 10%;
 
 }
-.senha{
+
+.senha {
     color: #ffffff;
     position: relative;
     font-family: 'Roboto', sans-serif;
@@ -134,12 +158,23 @@ footer {}
     font-family: 'Roboto', sans-serif;
 }
 
-.Finalização{
-text-decoration: none;
-color: white;
-font-family: 'Roboto', sans-serif;
-align-items: center;
-position: relative;
-left: 25%;
-justify-items: center;
+.Finalização {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    position: relative;
+    left: 25%;
+    justify-items: center;
+}
+.Conta{
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    left:10%;
+    cursor: pointer;
+    transition: 1s;
+}
+.Criar{
+background-color: #F27706;
 }
